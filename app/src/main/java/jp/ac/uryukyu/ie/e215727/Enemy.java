@@ -10,30 +10,62 @@ package jp.ac.uryukyu.ie.e215727;
  */
 public class Enemy {
     private String name;
+    /**
+     * hero.nameの文字列のgetter
+     * @return getterで取り出した名前
+     */
     public String getEnemyName(){
         return this.name;
     }
+    /**
+     * hero.nameの文字列のsetter
+     * @param name setterで取り出した名前
+     */
     public void setName(String name){
         this.name = name;
     }
     private int hitPoint;
+    /**
+     * hitpointの値のgetter
+     * @return getterで取り出した値
+     */
     public int gethitpoint(){
         return this.hitPoint;
     }
+    /**
+     * hitpointの値のsetter
+     * @param hitpoint setterで取り出した値
+     */
     public void setHitpoint(int hitpoint){
         this.hitPoint = hitpoint;
     }
     private int attack;
+    /**
+     * attackの値のgetter
+     * @return getterで取り出した値
+     */
     public int getattack(){
         return this.attack;
     }
+    /**
+     * attackの値のsetter
+     * @param attack setterで取り出した値
+     */
     public void setAttack(int attack){
         this.attack = attack;
     }
     private boolean dead;
+    /**
+     * isdeadを用いての判定のgetter
+     * @return 判定結果
+     */
     public boolean isdead(){
         return this.dead;
     }
+    /**
+     * isdeadを用いての判定のsetter
+     * @param dead 判定結果
+     */
     public void setDead(boolean dead){
         this.dead = dead;
     }
